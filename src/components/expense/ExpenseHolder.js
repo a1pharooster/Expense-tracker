@@ -14,9 +14,6 @@ function ExpenseHolder(props) {
         <div className="f">
           <h2>${props.amount}</h2>
         </div>
-        <div className="f">
-          <button onClick={clickHandler}>Done</button>
-        </div>
       </div>
     </div>
   );
