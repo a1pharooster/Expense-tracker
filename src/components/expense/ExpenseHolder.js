@@ -1,6 +1,6 @@
 import ExpenseDate from "./ExpenseDate";
 import "./expenseHolder.css";
-import React, { useState } from "react";
+import React from "react";
 
 function ExpenseHolder(props) {
 
