@@ -7,7 +7,7 @@ function ExpenseItems(props) {
 
 
   const newArray = (tired) => {
-    if (tired.date.getFullYear() === filteryear) {
+    if (tired.date.getFullYear() == filteryear) {
       return tired;
     }
   };
