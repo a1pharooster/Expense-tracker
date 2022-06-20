@@ -3,11 +3,6 @@ import "./expenseHolder.css";
 import React, { useState } from "react";
 
 function ExpenseHolder(props) {
-  const [a, b] = useState(props.title);
-
-  function clickHandler() {
-    b("Done");
-  }
 
   return (
     <div className="expenseitem">
