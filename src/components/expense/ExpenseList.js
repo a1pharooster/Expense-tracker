@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ExpenseList.css";
 import ExpenseHolder from "./ExpenseHolder.js"
 const ExpenseList = (props) => {
